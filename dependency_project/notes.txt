@@ -1,0 +1,8 @@
+package.json
+
+Se configura todas la opciones que pueda tener la aplicacion para desarrollar 
+hay maneras de crear este archivo
+
+$ npm init
+
+$ npm install nombredelpaquete --save para instalar como dependencia de proyecto

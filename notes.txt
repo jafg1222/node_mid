@@ -1,0 +1,1 @@
+node debug nombredelarchivo.js --> comando para iniciar el debug en nodeJs
