@@ -4,7 +4,7 @@ var fs = require('fs')
 var file = './assets/name.txt',
     newFile = './assets/nombres-callback.txt'
 
-fs.access('./assets/name.txt', fs.F_OK, (err) => {
+fs.access(file, fs.F_OK, (err) => {
     if (err) {
         console.log('Archivo no existe')
     } else {
